@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+body {
+	background-color: #202223;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 18px;
+}
+.highlight {
+	color: #FF000F;
+}
+.user {
+	color: #8CE10B;
+}
+.place {
+	color: #008DF8;
+}
+.res {
+	color: #9A5FEB;
+}
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  caret-color: #FFB900;
+  color: #fff;
+}
+*::selection {
+	background-color: #5F8787;
+	text-shadow: .1em .1em .5em #000;
+}
